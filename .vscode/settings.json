@@ -1,0 +1,28 @@
+{
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.eol": "\n",
+    "files.encoding": "utf8",
+
+    "[c]": {
+        "editor.formatOnSave": true,
+    },
+
+    "[makefile]": {
+        "editor.insertSpaces": false,
+    },
+
+    "[markdown]": {
+        "files.trimTrailingWhitespace": false,
+        "files.trimFinalNewlines": false,
+    },
+    "files.associations": {
+        "spi.h": "c",
+        "gp_timer.h": "c"
+    }
+}
